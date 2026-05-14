@@ -1,0 +1,16 @@
+name = "drifter"
+main = "src/index.ts"
+compatibility_date = "2026-05-04"
+
+[triggers]
+crons = [
+  "0 9 * * 1", # Weekly Report: Monday at 9:00 AM
+  "0 * * * *"   # Kill Switch Check: Every hour
+]
+
+[[kv_namespaces]]
+binding = "DRIFTER_CONTROL"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[vars]
+CLOUDFLARE_ACCOUNT_ID = "YOUR_CLOUDFLARE_ACCOUNT_ID"
