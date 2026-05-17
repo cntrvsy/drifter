@@ -6,7 +6,7 @@ Drifter is your personal **Cloudflare Workers guardian**. It's a proactive monit
 
 ---
 
-## ✨ Why Drifter?
+## Why Drifter?
 
 If you've ever worried about a project going viral (for the wrong reasons) or a recursive loop eating your budget, Drifter is for you. It provides:
 
@@ -16,7 +16,7 @@ If you've ever worried about a project going viral (for the wrong reasons) or a 
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 Before you get started, you'll need:
 
@@ -28,7 +28,7 @@ Before you get started, you'll need:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Repository Setup
 
@@ -84,7 +84,7 @@ npm run deploy
 
 ---
 
-## 🛡️ Protecting Your Other Projects
+## Protecting Your Other Projects
 
 To make the kill switch actually _work_, your other Workers need to check the "Gatekeeper".
 
@@ -126,7 +126,7 @@ export default {
 
 ---
 
-## 🛠️ Operations & Maintenance
+## Operations & Maintenance
 
 ### How to Reset (Un-Kill)
 
@@ -143,7 +143,7 @@ Want to see where you stand right now? Visit:
 
 ---
 
-## 📖 Built With
+## Built With
 
 - [Hono](https://hono.dev/) - The ultra-fast web framework for the edge.
 - [Cloudflare GraphQL API](https://developers.cloudflare.com/analytics/graphql-api/) - For precise account-level monitoring.
@@ -151,6 +151,6 @@ Want to see where you stand right now? Visit:
 
 ---
 
-## 💡 Inspiration & Credits
+## Inspiration & Credits
 
 This project was inspired by the excellent work and discussion in this blog post: [Automating Cloudflare Workers Kill Switch](https://pizzaconsole.com/blog/posts/programming/cf-overage).
